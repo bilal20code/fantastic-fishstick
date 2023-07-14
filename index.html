@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Login Details:</legend>
+          <label for="fname">Neme:</label>    
+          <input type="text" id="fname" name="fname" placeholder="Enter Name"><br><br>
+          <label for="Number">Number:</label>    
+          <input type="number" id="Number" name="Number" placeholder="0300-12345678"><br><br>
+          <label for="email">Enter your email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" placeholder="1234" min="0" max="4"><br><br><br>
+
+          <input type="submit" value="Submit" style="color: green;">
+          <input type="reset" value="reset" style="color: rgb(82, 7, 153);">
+        </fieldset>
+      </form><br>
+
+      <form action="/action_page.php">
+        <fieldset>
+            <legend>Your feedback:</legend>
+            <p>Plese check all the emotion that apply to you:</p>
+            <label for="type">Angry</label>
+            <input type="checkbox"><br>
+            <label for="type">Sad</label>
+            <input type="checkbox"><br>
+            <label for="type">Happy</label>
+            <input type="checkbox"><br>
+            <label for="type">Ambivalent</label>
+            <input type="checkbox"><br><br>
+            <p>How satisfied were you with our service?</p>
+            <label for="text">Very satisfied</label>
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Very satisfied">
+            <label for="text">Not satisfied</label>
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Not satisfied"><br><br><br>
+            <input type="submit" value="Submit" style="color: green;">
+            <input type="reset" value="reset" style="color: rgb(82, 7, 153);">
+        </fieldset>
+      </form>
+</body>
+</html>
